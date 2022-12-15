@@ -1,0 +1,29 @@
+
+/**
+ * main.css. Main CSS file, that stores major CSS definitions to use 
+ * throughout the application.
+ *
+ * Copyright (C) Manuel Moniz Pereira - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ *
+ * @author     Manuel Moniz Pereira <manelmpereira@gmail.com>
+ * @copyright  2022 Manuel Moniz Pereira
+ */
+
+/**
+ * Font definitions 
+ */
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700');
+
+/**
+ * General Style definitions 
+ */
+* {margin:0;padding:0;font-family:Rubik;font-weight:normal;position:relative;font-size:12px;letter-spacing:1px;line-height:18px;min-width:0;min-height:0;}
+html, body {width:100vw;height:100vh;background:#f0f0f0;overflow-x:hidden;}
+body {overflow-x:hidden;position:relative;} 
+
+section#container { position:absolute;top:0;left:0;right:0;bottom:20vh;background:#cccccc;z-index:1;text-align:center;font-size:60vh;line-height:80vh;cursor:pointer; }
+section#activator { position:absolute;top:0;left:0;right:0;bottom:20vh;z-index:2; }
+section#panel { position:absolute;left:0;right:0;bottom:0;height:20vh;background:#ffffff;z-index:2;text-align:center;line-height:20vh;font-size:10vh; }
+section#clear { position:absolute;width:16vh;height:16vh;bottom:2vh;right:2vh;z-index:3;background:url(trash.png);background-size:80%;background-repeat:no-repeat;background-position:center center;cursor:pointer; }
